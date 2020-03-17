@@ -5,11 +5,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 import NovoEstado from "./components/estado/estado";
 
 
@@ -21,7 +22,7 @@ function App() {
       <Navbar bg="dark" variant="dark">
          <Container>
          <Nav className="justify-content-end">
-                <Link to={"/"} className="nav-link">
+                <Link to={"/novo"} className="nav-link">
                   Novo Estado
                 </Link>
               </Nav>
@@ -33,7 +34,7 @@ function App() {
           <Col md={12}>
             <div className="wrapper">
               <Switch>
-                <Route path="/" component={NovoEstado} />
+                <Route path="/novo" component={NovoEstado} />
               </Switch>
             </div>
           </Col>
