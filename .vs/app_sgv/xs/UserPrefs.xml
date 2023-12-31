@@ -1,4 +1,18 @@
-﻿<Properties StartupConfiguration="{C20DA220-D339-49A2-96BA-2278B7159A65}|Default">
-  <MonoDevelop.Ide.ItemProperties.app__sgv FirstBuild="True" />
+﻿<Properties StartupConfiguration="{C20DA220-D339-49A2-96BA-2278B7159A65}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.app__sgv PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="app_sgv" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
