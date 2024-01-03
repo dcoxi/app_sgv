@@ -1,18 +1,33 @@
-﻿<Properties StartupConfiguration="{C20DA220-D339-49A2-96BA-2278B7159A65}|Default" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C20DA220-D339-49A2-96BA-2278B7159A65}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.app__sgv PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="app_sgv/ClientApp/src/AppRoutes.js">
+    <Files>
+      <File FileName="app_sgv/WeatherForecast.cs" />
+      <File FileName="app_sgv/Controllers/WeatherForecastController.cs" />
+      <File FileName="app_sgv/ClientApp/src/components/Home.js" />
+      <File FileName="app_sgv/ClientApp/src/components/NavMenu.js" />
+      <File FileName="app_sgv/ClientApp/src/AppRoutes.js" Line="4" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="app_sgv" selected="True" />
+          <Node name="app_sgv" expanded="True">
+            <Node name="app_sgv" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="AppRoutes.js" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.app__sgv__mvc FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.app__sgv PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

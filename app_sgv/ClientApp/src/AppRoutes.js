@@ -2,7 +2,8 @@ import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
 import { Home } from "./components/Home";
 
-const AppRoutes = [
+
+const routes = [
   {
     index: true,
     element: <Home />
@@ -16,5 +17,7 @@ const AppRoutes = [
     element: <FetchData />
   }
 ];
+
+const AppRoutes = routes;
 
 export default AppRoutes;
